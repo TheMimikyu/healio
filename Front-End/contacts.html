@@ -38,13 +38,13 @@
             <div class="row d-flex justify-content-center">
                 <div class="col-md-6">
                     <div>
-                        <form class="p-3 p-xl-4" method="post">
+                        <form class="p-3 p-xl-4" method="post" onsubmit="SendEmail(); reset(); return false;">
                             <!-- Start: Success Example -->
                             <div class="mb-3"><input class="shadow form-control" type="text" id="name-1" name="name" placeholder="Name"></div><!-- End: Success Example -->
                             <!-- Start: Error Example -->
                             <div class="mb-3"><input class="shadow form-control" type="email" id="email-1" name="email" placeholder="Email"></div><!-- End: Error Example -->
                             <div class="mb-3"><textarea class="shadow form-control" id="message-1" name="message" rows="6" placeholder="Message"></textarea></div>
-                            <div><button class="btn btn-primary shadow d-block w-100" type="submit">Send </button></div>
+                            <div><button class="btn btn-primary shadow d-block w-100" type="submit" >Send </button></div>
                         </form>
                     </div>
                 </div>
@@ -108,6 +108,26 @@
     </footer><!-- End: Footer Multi Column -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/startup-modern.js"></script>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script>
+        function SendEmail() {
+            Email.send({
+                Host : "smtp.gmail.com",
+                Username : "healiohelpline@gmail.com",
+                Password : "healio@123",
+                To : 'healiohelpline@gmail.com',
+                From : document.getElementById("email-1").value,
+                Subject : "New Complaint",
+                Body : "Name : " + document.getElementById("name-1").value + "<br><br>" + 
+                        "Sender's Email ID : " + document.getElementById("email-1").value + "<br><br>" +
+                        "Complaint : " + document.getElementById("message-1").value
+            }).then(
+            message => alert("Complaint Submitted Sucessfully")
+            );
+        }
+    </script>
+
 </body>
 
 </html>
