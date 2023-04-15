@@ -9,6 +9,8 @@
     <link rel="stylesheet" href="assets/css/Raleway.css">
     <link rel="stylesheet" href="assets/css/Roboto.css">
     <link rel="stylesheet" href="assets/fonts/fontawesome-all.min.css">
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
 </head>
 
 <body>
@@ -197,7 +199,72 @@
                     </div>
                 </div>
             </div>
-        </div><!-- End: Features Centered Icons -->
+        </div>
+        <button class="btn btn-primary" type="button" data-bs-toggle="modal" data-bs-target="#modal1" style="background: #2d2d2d;font-size: 25px;border-radius: 40%;padding-right: 14px;padding-left: 14px;margin-left: 85%;margin-top: 10px;"><i class="typcn typcn-plus"></i></button>
+        </div>
+        <div>
+          <div class="modal fade" role="dialog" tabindex="-1" id="modal1" style="border-radius: 50px;background: rgba(255,255,255,0);">
+              <div class="modal-dialog modal-lg" role="document">
+                  <div class="modal-content">
+                      <div class="modal-body" style="background: rgb(255,218,23);border-radius: 50;">
+                          <div class="modal-header" style="background: rgba(54,208,78,0);border-radius: 100px;border-bottom-right-radius: 0px;border-bottom-left-radius: 0px;border-top-color: transparent;border-right-color: transparent;border-bottom-color: transparent;border-left-color: transparent;">
+                              <h2 style="margin: 0px;margin-left: 20px;font-family: Roboto, sans-serif;color: var(--bs-black);font-weight: bold;">Add Your Meals</h2><button class="btn-close" type="button" aria-label="Close" data-bs-dismiss="modal" style="margin-right: 10px;color: rgb(255,255,255);"></button>
+                          </div>
+                          <form id="contactForm" action="javascript:void(0);" method="get"><input class="form-control" type="hidden" name="Introduction" value="This email was sent from www.awebsite.com"><input class="form-control" type="hidden" name="subject" value="Awebsite.com Contact Form"><input class="form-control" type="hidden" name="to" value="email@awebsite.com">
+                              <div class="row">
+                                  <div class="col-md-6">
+                                      <div id="successfail"></div>
+                                  </div>
+                              </div>
+                              <div class="row">
+                                  <div class="col">
+                                      <h2 class="h4" style="color: var(--bs-black);border-top-color: transparent;border-bottom-color: transparent;text-align: center;"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
+                                              <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                              <path d="M494.6 255.9c-65.63-.8203-118.6-54.14-118.6-119.9c-65.74 0-119.1-52.97-119.8-118.6c-25.66-3.867-51.8 .2346-74.77 12.07L116.7 62.41C93.35 74.36 74.36 93.35 62.41 116.7L29.6 181.2c-11.95 23.44-16.17 49.92-12.07 75.94l11.37 71.48c4.102 25.9 16.29 49.8 34.81 68.32l51.36 51.39C133.6 466.9 157.3 479 183.2 483.1l71.84 11.37c25.9 4.101 52.27-.1172 75.59-11.95l64.81-33.05c23.32-11.84 42.31-30.82 54.14-54.14l32.93-64.57C494.3 307.7 498.5 281.4 494.6 255.9zM176 367.1c-17.62 0-32-14.37-32-31.1s14.38-31.1 32-31.1s32 14.37 32 31.1S193.6 367.1 176 367.1zM208 208c-17.62 0-32-14.37-32-31.1s14.38-31.1 32-31.1s32 14.37 32 31.1S225.6 208 208 208zM368 335.1c-17.62 0-32-14.37-32-31.1s14.38-31.1 32-31.1s32 14.37 32 31.1S385.6 335.1 368 335.1z"></path>
+                                          </svg>&nbsp;Tell us About Your Meals</h2>
+                                      <div class="row">
+                                          <div class="col">
+                                              <div class="form-group mb-3"><label class="form-label" for="from-calltime" style="color: var(--bs-black);">Meal Timing</label>
+                                                  <div class="input-group"><span class="input-group-text" style="border-radius: 20px;background: rgba(255,255,255,0.67);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor">
+                                                              <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                              <path d="M256 512C114.6 512 0 397.4 0 256C0 114.6 114.6 0 256 0C397.4 0 512 114.6 512 256C512 397.4 397.4 512 256 512zM232 256C232 264 236 271.5 242.7 275.1L338.7 339.1C349.7 347.3 364.6 344.3 371.1 333.3C379.3 322.3 376.3 307.4 365.3 300L280 243.2V120C280 106.7 269.3 96 255.1 96C242.7 96 231.1 106.7 231.1 120L232 256z"></path>
+                                                          </svg></span><select class="form-select" id="from-meal" name="time" style="border-radius: 20px;background: rgba(255,255,255,0.88);" required="">
+                                                          <optgroup label="Best Time to Call">
+                                                              <option value="Morning" selected="">Morning</option>
+                                                              <option value="Afternoon">Afternoon</option>
+                                                              <option value="Evening">Evening</option>
+                                                          </optgroup>
+                                                      </select></div>
+                                              </div>
+                                              <div class="form-group mb-3"><label class="form-label" for="from-calltime" style="color: var(--bs-black);">Meal To Add</label>
+                                                  <div class="input-group"><span class="input-group-text" style="border-radius: 20px;background: rgba(255,255,255,0.67);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor">
+                                                              <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                                                              <path d="M208 72C208 58.75 218.7 48 232 48H248C261.3 48 272 58.75 272 72C272 85.25 261.3 96 248 96H232C218.7 96 208 85.25 208 72zM208 152C208 138.7 218.7 128 232 128H248C261.3 128 272 138.7 272 152C272 165.3 261.3 176 248 176H232C218.7 176 208 165.3 208 152zM16 232C16 218.7 26.75 208 40 208H56C69.25 208 80 218.7 80 232C80 245.3 69.25 256 56 256H40C26.75 256 16 245.3 16 232zM532.6 288C547.7 288 560 300.3 560 315.4C560 388.3 512.6 450.2 446.9 471.8C447.6 474.4 448 477.2 448 480C448 497.7 433.7 512 416 512H160C142.3 512 128 497.7 128 480C128 477.2 128.4 474.4 129.1 471.8C63.4 450.2 16 388.3 16 315.4C16 300.3 28.28 288 43.43 288H532.6zM248 208C261.3 208 272 218.7 272 232C272 245.3 261.3 256 248 256H232C218.7 256 208 245.3 208 232C208 218.7 218.7 208 232 208H248zM152 208C165.3 208 176 218.7 176 232C176 245.3 165.3 256 152 256H136C122.7 256 112 245.3 112 232C112 218.7 122.7 208 136 208H152zM112 152C112 138.7 122.7 128 136 128H152C165.3 128 176 138.7 176 152C176 165.3 165.3 176 152 176H136C122.7 176 112 165.3 112 152zM344 208C357.3 208 368 218.7 368 232C368 245.3 357.3 256 344 256H328C314.7 256 304 245.3 304 232C304 218.7 314.7 208 328 208H344zM304 152C304 138.7 314.7 128 328 128H344C357.3 128 368 138.7 368 152C368 165.3 357.3 176 344 176H328C314.7 176 304 165.3 304 152zM440 208C453.3 208 464 218.7 464 232C464 245.3 453.3 256 440 256H424C410.7 256 400 245.3 400 232C400 218.7 410.7 208 424 208H440zM400 152C400 138.7 410.7 128 424 128H440C453.3 128 464 138.7 464 152C464 165.3 453.3 176 440 176H424C410.7 176 400 165.3 400 152zM536 208C549.3 208 560 218.7 560 232C560 245.3 549.3 256 536 256H520C506.7 256 496 245.3 496 232C496 218.7 506.7 208 520 208H536zM344 48C357.3 48 368 58.75 368 72C368 85.25 357.3 96 344 96H328C314.7 96 304 85.25 304 72C304 58.75 314.7 48 328 48H344z"></path>
+                                                          </svg></span><select class="form-select" id="from-meal-1" name="time" style="border-radius: 20px;background: rgba(255,255,255,0.88);" required="">
+                                                          <optgroup label="Best Time to Call">
+                                                              <option value="Morning" selected="">Morning</option>
+                                                              <option value="Afternoon">Afternoon</option>
+                                                              <option value="Evening">Evening</option>
+                                                          </optgroup>
+                                                      </select></div>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="form-group mb-3">
+                                          <div class="row">
+                                              <div class="col"><button class="btn btn-primary d-block w-100" type="reset" style="border-radius: 40px;background: rgb(255,122,0);"><i class="fa fa-undo"></i> Reset</button></div>
+                                              <div class="col"><button class="btn btn-primary d-block w-100" type="submit" style="border-radius: 40px;background: rgb(255,122,0);">Submit <i class="fa fa-chevron-circle-right"></i></button></div>
+                                          </div>
+                                      </div>
+                                      <hr class="d-flex d-md-none">
+                                  </div>
+                              </div>
+                          </form>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div><!-- End: Features Centered Icons -->
     </section><!-- Start: Footer Multi Column -->
     <footer>
         <div class="container py-4 py-lg-5">
