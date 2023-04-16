@@ -1,88 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
     <title>Healio - Meds</title>
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="assets/css/Raleway.css">
     <link rel="stylesheet" href="assets/css/Roboto.css">
-</head>
+    <link rel="stylesheet" href="assets/fonts/font-awesome.min.css">
+    <link rel="stylesheet" href="assets/fonts/typicons.min.css">
+  </head>
 
-<body>
+  <body>
     <nav class="navbar navbar-light navbar-expand-md py-3">
-        <div class="container">
-          <a class="navbar-brand d-flex align-items-center" href="#"
-            ><span
-              class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"
-              style="--bs-primary: #24285b; --bs-primary-rgb: 36, 40, 91"
-              ><svg
-                xmlns="http://www.w3.org/2000/svg"
-                viewBox="0 -32 576 576"
-                width="1em"
-                height="1em"
-                fill="currentColor"
-              >
-                <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                <path
-                  d="M511.8 287.6L512.5 447.7C512.6 483.2 483.9 512 448.5 512H128.1C92.75 512 64.09 483.3 64.09 448V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L416 100.7V64C416 46.33 430.3 32 448 32H480C497.7 32 512 46.33 512 64V185L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6L511.8 287.6zM400 248C400 239.2 392.8 232 384 232H328V176C328 167.2 320.8 160 312 160H264C255.2 160 248 167.2 248 176V232H192C183.2 232 176 239.2 176 248V296C176 304.8 183.2 312 192 312H248V368C248 376.8 255.2 384 264 384H312C320.8 384 328 376.8 328 368V312H384C392.8 312 400 304.8 400 296V248z"
-                ></path></svg></span
-            ><span>HEALIO</span></a
-          ><button
-            data-bs-toggle="collapse"
-            class="navbar-toggler"
-            data-bs-target="#navcol-4"
-            style="background: var(--bs-indigo); border-radius: 40px"
-          >
-            <span class="visually-hidden">Toggle navigation</span
-            ><span class="navbar-toggler-icon"></span>
-          </button>
-          <div
-            class="collapse navbar-collapse flex-grow-0 order-md-first"
-            id="navcol-4"
-          >
-            <ul class="navbar-nav me-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">Dashboard</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="Medicines.html">Your Medicine</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="Diet.html">Your Plate</a>
-              </li>
-            </ul>
-            <div class="d-md-none my-2">
-              <a
-                class="btn btn-light me-2"
-                type="button"
-                href="contacts.html"
-                style="
-                  border-radius: 50px;
-                  background: #24285b;
-                  color: rgb(255, 255, 255);
-                "
-              >
-                Contact Us</a
-              ><a
-                class="btn btn-primary"
-                role="button"
-                href="accounts.html"
-                style="
-                  background: #ffd200;
-                  border-radius: 50px;
-                  color: var(--bs-navbar-active-color);
-                  border-color: var(--bs-navbar-toggler-border-color);
-                "
-                >Login</a
-              >
-            </div>
-          </div>
-          <div class="d-none d-md-block">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center" href="#"
+          ><span
+            class="bs-icon-sm bs-icon-rounded bs-icon-primary d-flex justify-content-center align-items-center me-2 bs-icon"
+            style="--bs-primary: #24285b; --bs-primary-rgb: 36, 40, 91"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 -32 576 576"
+              width="1em"
+              height="1em"
+              fill="currentColor"
+            >
+              <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M511.8 287.6L512.5 447.7C512.6 483.2 483.9 512 448.5 512H128.1C92.75 512 64.09 483.3 64.09 448V287.6H32.05C14.02 287.6 0 273.5 0 255.5C0 246.5 3.004 238.5 10.01 231.5L266.4 8.016C273.4 1.002 281.4 0 288.4 0C295.4 0 303.4 2.004 309.5 7.014L416 100.7V64C416 46.33 430.3 32 448 32H480C497.7 32 512 46.33 512 64V185L564.8 231.5C572.8 238.5 576.9 246.5 575.8 255.5C575.8 273.5 560.8 287.6 543.8 287.6L511.8 287.6zM400 248C400 239.2 392.8 232 384 232H328V176C328 167.2 320.8 160 312 160H264C255.2 160 248 167.2 248 176V232H192C183.2 232 176 239.2 176 248V296C176 304.8 183.2 312 192 312H248V368C248 376.8 255.2 384 264 384H312C320.8 384 328 376.8 328 368V312H384C392.8 312 400 304.8 400 296V248z"
+              ></path></svg></span
+          ><span>HEALIO</span></a
+        ><button
+          data-bs-toggle="collapse"
+          class="navbar-toggler"
+          data-bs-target="#navcol-4"
+          style="background: var(--bs-indigo); border-radius: 40px"
+        >
+          <span class="visually-hidden">Toggle navigation</span
+          ><span class="navbar-toggler-icon"></span>
+        </button>
+        <div
+          class="collapse navbar-collapse flex-grow-0 order-md-first"
+          id="navcol-4"
+        >
+          <ul class="navbar-nav me-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="Medicines.html">Your Medicine</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="Diet.html">Your Plate</a>
+            </li>
+          </ul>
+          <div class="d-md-none my-2">
             <a
               class="btn btn-light me-2"
-              role="button"
+              type="button"
               href="contacts.html"
               style="
                 border-radius: 50px;
@@ -105,124 +83,698 @@
             >
           </div>
         </div>
-      </nav>
-    <section style="background: rgba(255,255,255,0);margin-top: 85px;">
-        <!-- Start: Features Centered Icons -->
-        <div class="container py-4 py-xl-5" style="background: rgb(54,208,78);border-radius: 100px;margin-top: 125px;">
-            <div class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-3" style="border-bottom-color: #000000;">
-                <div class="col">
-                    <div class="card border-light border-1 d-flex justify-content-center p-4" style="border-radius: 75px;background: rgba(255,255,255,0.8);">
-                        <div class="card-body">
-                            <div class="bs-icon-lg bs-icon-rounded bs-icon-secondary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-4 bs-icon" style="border-radius: 120px;background: rgb(125,254,161);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor">
-                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                                    <path d="M112 32C50.12 32 0 82.12 0 143.1v223.1c0 61.88 50.12 111.1 112 111.1s112-50.12 112-111.1V143.1C224 82.12 173.9 32 112 32zM160 256H64V144c0-26.5 21.5-48 48-48s48 21.5 48 48V256zM299.8 226.2c-3.5-3.5-9.5-3-12.38 .875c-45.25 62.5-40.38 150.1 15.88 206.4c56.38 56.25 144 61.25 206.5 15.88c4-2.875 4.249-8.75 .75-12.25L299.8 226.2zM529.5 207.2c-56.25-56.25-143.9-61.13-206.4-15.87c-4 2.875-4.375 8.875-.875 12.38l210.9 210.7c3.5 3.5 9.375 3.125 12.25-.75C590.8 351.1 585.9 263.6 529.5 207.2z"></path>
-                                </svg></div>
-                            <div>
-                                <h4 class="fw-bold" style="text-align: left;">Medicine A:</h4>
-                                <p class="text-muted" style="font-family: Roboto, sans-serif;font-weight: bold;text-align: right;font-size: 20px;">Day - 5</p>
-                                <p class="text-muted" style="font-family: Roboto, sans-serif;font-weight: bold;text-align: right;">At : 8 : 00 P.M.</p><button class="btn btn-sm px-0" type="button" style="text-align: right;color: rgba(45,45,45,0.68);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 30px;text-align: right;">
-                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                                        <path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path>
-                                    </svg></button>
-                            </div>
-                        </div>
-                    </div>
+        <div class="d-none d-md-block">
+          <a
+            class="btn btn-light me-2"
+            role="button"
+            href="contacts.html"
+            style="
+              border-radius: 50px;
+              background: #24285b;
+              color: rgb(255, 255, 255);
+            "
+          >
+            Contact Us</a
+          ><a
+            class="btn btn-primary"
+            role="button"
+            href="accounts.html"
+            style="
+              background: #ffd200;
+              border-radius: 50px;
+              color: var(--bs-navbar-active-color);
+              border-color: var(--bs-navbar-toggler-border-color);
+            "
+            >Login</a
+          >
+        </div>
+      </div>
+    </nav>
+    <section style="background: rgba(255, 255, 255, 0); margin-top: 85px">
+      <!-- Start: Features Centered Icons -->
+      <div
+        class="container py-4 py-xl-5"
+        style="
+          background: rgb(54, 208, 78);
+          border-radius: 100px;
+          margin-top: 125px;
+        "
+      >
+        <div
+          class="row gy-4 row-cols-1 row-cols-md-2 row-cols-lg-3"
+          style="border-bottom-color: #000000"
+        >
+          <div class="col">
+            <div
+              class="card border-light border-1 d-flex justify-content-center p-4"
+              style="border-radius: 75px; background: rgba(255, 255, 255, 0.8)"
+            >
+              <div class="card-body">
+                <div
+                  class="bs-icon-lg bs-icon-rounded bs-icon-secondary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-4 bs-icon"
+                  style="border-radius: 120px; background: rgb(125, 254, 161)"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 -32 576 576"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                  >
+                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M112 32C50.12 32 0 82.12 0 143.1v223.1c0 61.88 50.12 111.1 112 111.1s112-50.12 112-111.1V143.1C224 82.12 173.9 32 112 32zM160 256H64V144c0-26.5 21.5-48 48-48s48 21.5 48 48V256zM299.8 226.2c-3.5-3.5-9.5-3-12.38 .875c-45.25 62.5-40.38 150.1 15.88 206.4c56.38 56.25 144 61.25 206.5 15.88c4-2.875 4.249-8.75 .75-12.25L299.8 226.2zM529.5 207.2c-56.25-56.25-143.9-61.13-206.4-15.87c-4 2.875-4.375 8.875-.875 12.38l210.9 210.7c3.5 3.5 9.375 3.125 12.25-.75C590.8 351.1 585.9 263.6 529.5 207.2z"
+                    ></path>
+                  </svg>
                 </div>
-                <div class="col">
-                    <div class="card border-light border-1 d-flex justify-content-center p-4" style="border-radius: 75px;background: rgba(255,255,255,0.8);">
-                        <div class="card-body">
-                            <div class="bs-icon-lg bs-icon-rounded bs-icon-secondary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-4 bs-icon" style="border-radius: 120px;background: rgb(125,254,161);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor">
-                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                                    <path d="M112 32C50.12 32 0 82.12 0 143.1v223.1c0 61.88 50.12 111.1 112 111.1s112-50.12 112-111.1V143.1C224 82.12 173.9 32 112 32zM160 256H64V144c0-26.5 21.5-48 48-48s48 21.5 48 48V256zM299.8 226.2c-3.5-3.5-9.5-3-12.38 .875c-45.25 62.5-40.38 150.1 15.88 206.4c56.38 56.25 144 61.25 206.5 15.88c4-2.875 4.249-8.75 .75-12.25L299.8 226.2zM529.5 207.2c-56.25-56.25-143.9-61.13-206.4-15.87c-4 2.875-4.375 8.875-.875 12.38l210.9 210.7c3.5 3.5 9.375 3.125 12.25-.75C590.8 351.1 585.9 263.6 529.5 207.2z"></path>
-                                </svg></div>
-                            <div>
-                                <h4 class="fw-bold" style="text-align: left;">Medicine B:</h4>
-                                <p class="text-muted" style="font-family: Roboto, sans-serif;font-weight: bold;text-align: right;font-size: 20px;">Day - 7</p>
-                                <p class="text-muted" style="font-family: Roboto, sans-serif;font-weight: bold;text-align: right;">At : 8 : 00 P.M.</p><button class="btn btn-sm px-0" type="button" style="text-align: right;color: rgba(45,45,45,0.68);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 30px;text-align: right;">
-                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                                        <path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path>
-                                    </svg></button>
-                            </div>
-                        </div>
-                    </div>
+                <div>
+                  <h4 class="fw-bold" style="text-align: left">Medicine A:</h4>
+                  <p
+                    class="text-muted"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-weight: bold;
+                      text-align: right;
+                      font-size: 20px;
+                    "
+                  >
+                    Day - 5
+                  </p>
+                  <p
+                    class="text-muted"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-weight: bold;
+                      text-align: right;
+                    "
+                  >
+                    At : 8 : 00 P.M.
+                  </p>
+                  <button
+                    class="btn btn-sm px-0"
+                    type="button"
+                    style="text-align: right; color: rgba(45, 45, 45, 0.68)"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      height="1em"
+                      fill="currentColor"
+                      style="font-size: 30px; text-align: right"
+                    >
+                      <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"
+                      ></path>
+                    </svg>
+                  </button>
                 </div>
-                <div class="col">
-                    <div class="card border-light border-1 d-flex justify-content-center p-4" style="border-radius: 75px;background: rgba(255,255,255,0.8);">
-                        <div class="card-body">
-                            <div class="bs-icon-lg bs-icon-rounded bs-icon-secondary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-4 bs-icon" style="border-radius: 120px;background: rgb(125,254,161);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -32 576 576" width="1em" height="1em" fill="currentColor">
-                                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                                    <path d="M112 32C50.12 32 0 82.12 0 143.1v223.1c0 61.88 50.12 111.1 112 111.1s112-50.12 112-111.1V143.1C224 82.12 173.9 32 112 32zM160 256H64V144c0-26.5 21.5-48 48-48s48 21.5 48 48V256zM299.8 226.2c-3.5-3.5-9.5-3-12.38 .875c-45.25 62.5-40.38 150.1 15.88 206.4c56.38 56.25 144 61.25 206.5 15.88c4-2.875 4.249-8.75 .75-12.25L299.8 226.2zM529.5 207.2c-56.25-56.25-143.9-61.13-206.4-15.87c-4 2.875-4.375 8.875-.875 12.38l210.9 210.7c3.5 3.5 9.375 3.125 12.25-.75C590.8 351.1 585.9 263.6 529.5 207.2z"></path>
-                                </svg></div>
-                            <div>
-                                <h4 class="fw-bold" style="text-align: left;">Syrup C:</h4>
-                                <p class="text-muted" style="font-family: Roboto, sans-serif;font-weight: bold;text-align: right;font-size: 20px;">Day - 5</p>
-                                <p class="text-muted" style="font-family: Roboto, sans-serif;font-weight: bold;text-align: right;">At : 8 : 00 P.M.</p><button class="btn btn-sm px-0" type="button" style="text-align: right;color: rgba(45,45,45,0.68);"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="1em" height="1em" fill="currentColor" style="font-size: 30px;text-align: right;">
-                                        <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
-                                        <path d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"></path>
-                                    </svg></button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+              </div>
             </div>
-        </div><!-- End: Features Centered Icons -->
-    </section><!-- Start: Footer Multi Column -->
+          </div>
+          <div class="col">
+            <div
+              class="card border-light border-1 d-flex justify-content-center p-4"
+              style="border-radius: 75px; background: rgba(255, 255, 255, 0.8)"
+            >
+              <div class="card-body">
+                <div
+                  class="bs-icon-lg bs-icon-rounded bs-icon-secondary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-4 bs-icon"
+                  style="border-radius: 120px; background: rgb(125, 254, 161)"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 -32 576 576"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                  >
+                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M112 32C50.12 32 0 82.12 0 143.1v223.1c0 61.88 50.12 111.1 112 111.1s112-50.12 112-111.1V143.1C224 82.12 173.9 32 112 32zM160 256H64V144c0-26.5 21.5-48 48-48s48 21.5 48 48V256zM299.8 226.2c-3.5-3.5-9.5-3-12.38 .875c-45.25 62.5-40.38 150.1 15.88 206.4c56.38 56.25 144 61.25 206.5 15.88c4-2.875 4.249-8.75 .75-12.25L299.8 226.2zM529.5 207.2c-56.25-56.25-143.9-61.13-206.4-15.87c-4 2.875-4.375 8.875-.875 12.38l210.9 210.7c3.5 3.5 9.375 3.125 12.25-.75C590.8 351.1 585.9 263.6 529.5 207.2z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="fw-bold" style="text-align: left">Medicine B:</h4>
+                  <p
+                    class="text-muted"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-weight: bold;
+                      text-align: right;
+                      font-size: 20px;
+                    "
+                  >
+                    Day - 7
+                  </p>
+                  <p
+                    class="text-muted"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-weight: bold;
+                      text-align: right;
+                    "
+                  >
+                    At : 8 : 00 P.M.
+                  </p>
+                  <button
+                    class="btn btn-sm px-0"
+                    type="button"
+                    style="text-align: right; color: rgba(45, 45, 45, 0.68)"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      height="1em"
+                      fill="currentColor"
+                      style="font-size: 30px; text-align: right"
+                    >
+                      <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div
+              class="card border-light border-1 d-flex justify-content-center p-4"
+              style="border-radius: 75px; background: rgba(255, 255, 255, 0.8)"
+            >
+              <div class="card-body">
+                <div
+                  class="bs-icon-lg bs-icon-rounded bs-icon-secondary d-flex flex-shrink-0 justify-content-center align-items-center d-inline-block mb-4 bs-icon"
+                  style="border-radius: 120px; background: rgb(125, 254, 161)"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    viewBox="0 -32 576 576"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                  >
+                    <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                    <path
+                      d="M112 32C50.12 32 0 82.12 0 143.1v223.1c0 61.88 50.12 111.1 112 111.1s112-50.12 112-111.1V143.1C224 82.12 173.9 32 112 32zM160 256H64V144c0-26.5 21.5-48 48-48s48 21.5 48 48V256zM299.8 226.2c-3.5-3.5-9.5-3-12.38 .875c-45.25 62.5-40.38 150.1 15.88 206.4c56.38 56.25 144 61.25 206.5 15.88c4-2.875 4.249-8.75 .75-12.25L299.8 226.2zM529.5 207.2c-56.25-56.25-143.9-61.13-206.4-15.87c-4 2.875-4.375 8.875-.875 12.38l210.9 210.7c3.5 3.5 9.375 3.125 12.25-.75C590.8 351.1 585.9 263.6 529.5 207.2z"
+                    ></path>
+                  </svg>
+                </div>
+                <div>
+                  <h4 class="fw-bold" style="text-align: left">Syrup C:</h4>
+                  <p
+                    class="text-muted"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-weight: bold;
+                      text-align: right;
+                      font-size: 20px;
+                    "
+                  >
+                    Day - 5
+                  </p>
+                  <p
+                    class="text-muted"
+                    style="
+                      font-family: Roboto, sans-serif;
+                      font-weight: bold;
+                      text-align: right;
+                    "
+                  >
+                    At : 8 : 00 P.M.
+                  </p>
+                  <button
+                    class="btn btn-sm px-0"
+                    type="button"
+                    style="text-align: right; color: rgba(45, 45, 45, 0.68)"
+                  >
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      viewBox="0 0 512 512"
+                      width="1em"
+                      height="1em"
+                      fill="currentColor"
+                      style="font-size: 30px; text-align: right"
+                    >
+                      <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                      <path
+                        d="M421.7 220.3L188.5 453.4L154.6 419.5L158.1 416H112C103.2 416 96 408.8 96 400V353.9L92.51 357.4C87.78 362.2 84.31 368 82.42 374.4L59.44 452.6L137.6 429.6C143.1 427.7 149.8 424.2 154.6 419.5L188.5 453.4C178.1 463.8 165.2 471.5 151.1 475.6L30.77 511C22.35 513.5 13.24 511.2 7.03 504.1C.8198 498.8-1.502 489.7 .976 481.2L36.37 360.9C40.53 346.8 48.16 333.9 58.57 323.5L291.7 90.34L421.7 220.3zM492.7 58.75C517.7 83.74 517.7 124.3 492.7 149.3L444.3 197.7L314.3 67.72L362.7 19.32C387.7-5.678 428.3-5.678 453.3 19.32L492.7 58.75z"
+                      ></path>
+                    </svg>
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="btn btn-primary"
+          type="button"
+          data-bs-toggle="modal"
+          data-bs-target="#modal1"
+          style="
+            background: #2d2d2d;
+            font-size: 20px;
+            border-radius: 100%;
+            padding-right: 14px;
+            padding-left: 14px;
+            margin-left: 85%;
+            margin-top: 2%;
+          "
+        >
+          <i class="typcn typcn-plus"></i>
+        </button>
+      </div>
+      <div>
+        <div
+          class="modal fade"
+          role="dialog"
+          tabindex="-1"
+          id="modal1"
+          style="border-radius: 50px; background: rgba(255, 255, 255, 0)"
+        >
+          <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+              <div
+                class="modal-body"
+                style="
+                  background: #36d04e;
+                  --bs-body-bg: transparent;
+                  border-radius: 0;
+                "
+              >
+                <div
+                  class="modal-header"
+                  style="
+                    background: rgba(54, 208, 78, 0);
+                    border-radius: 100px;
+                    border-bottom-right-radius: 0px;
+                    border-bottom-left-radius: 0px;
+                    border-top-color: transparent;
+                    border-right-color: transparent;
+                    border-bottom-color: transparent;
+                    border-left-color: transparent;
+                  "
+                >
+                  <h2
+                    style="
+                      margin: 0px;
+                      margin-left: 20px;
+                      font-family: Roboto, sans-serif;
+                      color: var(--bs-modal-bg);
+                      font-weight: bold;
+                    "
+                  >
+                    Add Medicines
+                  </h2>
+                  <button
+                    class="btn-close"
+                    type="button"
+                    aria-label="Close"
+                    data-bs-dismiss="modal"
+                    style="margin-right: 10px; color: rgb(255, 255, 255)"
+                  ></button>
+                </div>
+                <form
+                  id="contactForm"
+                  action="javascript:void(0);"
+                  method="get"
+                >
+                  <input
+                    class="form-control"
+                    type="hidden"
+                    name="Introduction"
+                    value="This email was sent from www.awebsite.com"
+                  /><input
+                    class="form-control"
+                    type="hidden"
+                    name="subject"
+                    value="Awebsite.com Form"
+                  /><input
+                    class="form-control"
+                    type="hidden"
+                    name="to"
+                    value="email@awebsite.com"
+                  />
+                  <div class="row">
+                    <div class="col-md-6">
+                      <div id="successfail"></div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col">
+                      <h2
+                        class="h4"
+                        style="
+                          color: var(--bs-modal-bg);
+                          border-top-color: transparent;
+                          border-bottom-color: transparent;
+                          text-align: center;
+                        "
+                      >
+                        <svg
+                          xmlns="http://www.w3.org/2000/svg"
+                          viewBox="-64 0 512 512"
+                          width="1em"
+                          height="1em"
+                          fill="currentColor"
+                        >
+                          <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                          <path
+                            d="M256 0v128h128L256 0zM224 128L224 0H48C21.49 0 0 21.49 0 48v416C0 490.5 21.49 512 48 512h288c26.51 0 48-21.49 48-48V160h-127.1C238.3 160 224 145.7 224 128zM288 301.7v36.57C288 345.9 281.9 352 274.3 352L224 351.1v50.29C224 409.9 217.9 416 210.3 416H173.7C166.1 416 160 409.9 160 402.3V351.1L109.7 352C102.1 352 96 345.9 96 338.3V301.7C96 294.1 102.1 288 109.7 288H160V237.7C160 230.1 166.1 224 173.7 224h36.57C217.9 224 224 230.1 224 237.7V288h50.29C281.9 288 288 294.1 288 301.7z"
+                          ></path></svg
+                        >&nbsp;Tell us About your Medicines
+                      </h2>
+                      <div class="form-group mb-3">
+                        <label
+                          class="form-label"
+                          for="from-name"
+                          style="color: var(--bs-modal-bg)"
+                          >Medicine Name</label
+                        >
+                        <div class="input-group">
+                          <span
+                            class="input-group-text"
+                            style="
+                              border-radius: 20px;
+                              background: rgba(255, 255, 255, 0.67);
+                            "
+                            ><svg
+                              xmlns="http://www.w3.org/2000/svg"
+                              viewBox="0 -64 640 640"
+                              width="1em"
+                              height="1em"
+                              fill="currentColor"
+                            >
+                              <!--! Font Awesome Free 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2022 Fonticons, Inc. -->
+                              <path
+                                d="M159.1 191.1c-81.1 0-147.5 58.51-159.9 134.8C-.7578 331.5 3.367 336 8.365 336h303.3c4.998 0 8.996-4.5 8.248-9.25C307.4 250.5 241.1 191.1 159.1 191.1zM311.5 368H8.365c-4.998 0-9.123 4.5-8.248 9.25C12.49 453.5 78.88 512 159.1 512s147.4-58.5 159.8-134.8C320.7 372.5 316.5 368 311.5 368zM362.9 65.74c-3.502-3.502-9.504-3.252-12.25 .75c-45.52 62.76-40.52 150.4 15.88 206.9c56.52 56.51 144.2 61.39 206.1 15.88c4.002-2.875 4.252-8.877 .75-12.25L362.9 65.74zM593.4 46.61c-56.52-56.51-144.2-61.39-206.1-16c-4.002 2.877-4.252 8.877-.75 12.25l211.3 211.4c3.5 3.502 9.504 3.252 12.25-.75C654.8 190.8 649.9 103.1 593.4 46.61z"
+                              ></path></svg></span
+                          ><input
+                            class="form-control"
+                            type="text"
+                            id="from-name"
+                            name="name"
+                            required=""
+                            placeholder="Medicine Name"
+                            style="
+                              border-radius: 20px;
+                              background: rgba(255, 255, 255, 0.88);
+                            "
+                          />
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-12 col-sm-6 col-md-12 col-lg-6">
+                          <div class="form-group mb-3">
+                            <label
+                              class="form-label"
+                              for="from-email"
+                              style="color: var(--bs-modal-bg)"
+                              >Uptill</label
+                            >
+                            <div class="input-group">
+                              <span
+                                class="input-group-text"
+                                style="
+                                  border-radius: 20px;
+                                  background: rgba(255, 255, 255, 0.67);
+                                "
+                                ><i class="fa fa-calendar"></i></span
+                              ><input
+                                type="date"
+                                id="from-date"
+                                name="date"
+                                required=""
+                                placeholder="Date"
+                                style="
+                                  border-radius: 20px;
+                                  background: rgba(255, 255, 255, 0.88);
+                                "
+                              />
+                            </div>
+                          </div>
+                        </div>
+                        <div class="col">
+                          <div class="form-group mb-3">
+                            <label
+                              class="form-label"
+                              for="from-calltime"
+                              style="color: var(--bs-modal-bg)"
+                              >Medicine Timing</label
+                            >
+                            <div class="input-group">
+                              <span
+                                class="input-group-text"
+                                style="
+                                  border-radius: 20px;
+                                  background: rgba(255, 255, 255, 0.67);
+                                "
+                                ><i class="fa fa-clock-o"></i></span
+                              ><input
+                                type="time"
+                                id="from-time"
+                                name="time"
+                                style="
+                                  border-radius: 20px;
+                                  background: rgba(255, 255, 255, 0.88);
+                                "
+                                required=""
+                              >
+                                <!--! <optgroup label="Prescribed Medicine Time.">
+                                  <option value="Morning" selected="">
+                                    Morning
+                                  </option>
+                                  <option value="Afternoon">Afternoon</option>
+                                  <option value="Evening">Evening</option>
+                                </optgroup> -->
+                              </select>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="form-group mb-3">
+                        <label
+                          class="form-label"
+                          for="from-comments"
+                          style="color: rgb(255, 255, 255)"
+                          >Comments</label
+                        ><textarea
+                          class="form-control"
+                          id="from-comments"
+                          name="comments"
+                          placeholder="Enter Comments"
+                          rows="4"
+                          style="
+                            border-radius: 40px;
+                            background: rgba(255, 255, 255, 0.88);
+                          "
+                        ></textarea>
+                      </div>
+                      <div class="form-group mb-3">
+                        <div class="row">
+                          <div class="col">
+                            <button
+                              class="btn btn-primary d-block w-100"
+                              type="reset"
+                              style="border-radius: 40px"
+                            >
+                              <i class="fa fa-undo"></i> Reset
+                            </button>
+                          </div>
+                          <div class="col">
+                            <button
+                              class="btn btn-primary d-block w-100"
+                              type="submit"
+                              style="border-radius: 40px"
+                            >
+                              Submit <i class="fa fa-chevron-circle-right"></i>
+                            </button>
+                          </div>
+                        </div>
+                      </div>
+                      <hr class="d-flex d-md-none" />
+                    </div>
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
     <footer>
-        <div class="container py-4 py-lg-5">
-            <div class="row row-cols-2 row-cols-md-4">
-                <!-- Start: Social Icons -->
-                <div class="col-12 col-md-3">
-                    <div class="fw-bold d-flex align-items-center mb-2"><span>HEALIO</span></div>
-                    <p class="text-muted"><span style="color: rgb(31, 35, 40); background-color: var(--color-neutral-muted);">One Stop Solution to Healthcare Needs</span></p>
-                </div><!-- End: Social Icons -->
-                <!-- Start: Services -->
-                <div class="col-sm-4 col-md-3 text-lg-start d-flex flex-column">
-                    <h3 class="fs-6 fw-bold">Services</h3>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Health Suite</a></li>
-                        <li><a href="#">Diet</a></li>
-                        <li><a href="#">Medicine</a></li>
-                    </ul>
-                </div><!-- End: Services -->
-                <!-- Start: About -->
-                <div class="col-sm-4 col-md-3 text-lg-start d-flex flex-column">
-                    <h3 class="fs-6 fw-bold">About</h3>
-                    <ul class="list-unstyled">
-                        <li><a href="#">Team:</a></li>
-                        <li><a href="#">Vedant Yadav</a>  <a href="https://linkedin.com/in/vedant-yadav-33a134259" target="blank"> <img src="https://www.keesingtechnologies.com/wp-content/uploads/2018/07/Linkedin-Icon.png" alt="Vedant linkedin" height= 15px;></a><a href="https://github.com/TheMimikyu" target="blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-                        </svg></a></li>
-                        <li><a href="#">Priyanshu Paritosh</a>  <a href="https://linkedin.com/in/priyanshu-paritosh-558b38256" target="blank"> <img src="https://www.keesingtechnologies.com/wp-content/uploads/2018/07/Linkedin-Icon.png" alt="Priyanshu linkedin" height= 15px;></a><a href="https://github.com/gamerguy27072" target = "blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-                        </svg></a></li>
-                        <li>Ashutosh Mishra <a href="https://linkedin.com/in/ashutosh-mishra-46a082238" target = "blank"> <img src="https://www.keesingtechnologies.com/wp-content/uploads/2018/07/Linkedin-Icon.png" alt="Ashutosh linkedin" height= 15px;></a><a href="https://github.com/ashutosh-3474" target = "blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-                        </svg></a></li>
-                        <li>Nidhi Satyapriya <a href="https://linkedin.com/in/nidhi-satyapriya-960556249" target="blank"> <img src="https://www.keesingtechnologies.com/wp-content/uploads/2018/07/Linkedin-Icon.png" alt="Nidhi linkedin" height= 15px;></a><a href="https://github.com/Nidhi-Satyapriya" target = "blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-                        </svg></a></li>
-                    </ul>
-                </div><!-- End: About -->
+      <div class="container py-4 py-lg-5">
+        <div class="row row-cols-2 row-cols-md-4">
+          <!-- Start: Social Icons -->
+          <div class="col-12 col-md-3">
+            <div class="fw-bold d-flex align-items-center mb-2">
+              <span>HEALIO</span>
             </div>
-            <hr>
-            <div class="text-muted d-flex justify-content-between align-items-center pt-3">
-                <p class="mb-0">Copyright ©<br>HEALIO&nbsp;2023&nbsp;</p>
-                <ul class="list-inline mb-0">
-                    <li class="list-inline-item"><a href="https://github.com/TheMimikyu/healio" target="blank"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-github">
-                            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"></path>
-                        </svg></a></li>
-                   <!-- <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-linkedin">
+            <p class="text-muted">
+              <span
+                style="
+                  color: rgb(31, 35, 40);
+                  background-color: var(--color-neutral-muted);
+                "
+                >One Stop Solution to Healthcare Needs</span
+              >
+            </p>
+          </div>
+          <!-- End: Social Icons -->
+          <!-- Start: Services -->
+          <div class="col-sm-4 col-md-3 text-lg-start d-flex flex-column">
+            <h3 class="fs-6 fw-bold">Services</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Health Suite</a></li>
+              <li><a href="#">Diet</a></li>
+              <li><a href="#">Medicine</a></li>
+            </ul>
+          </div>
+          <!-- End: Services -->
+          <!-- Start: About -->
+          <div class="col-sm-4 col-md-3 text-lg-start d-flex flex-column">
+            <h3 class="fs-6 fw-bold">About</h3>
+            <ul class="list-unstyled">
+              <li><a href="#">Team:</a></li>
+              <li>
+                <a href="#">Vedant Yadav</a>
+                <a
+                  href="https://linkedin.com/in/vedant-yadav-33a134259"
+                  target="blank"
+                >
+                  <img
+                    src="https://www.keesingtechnologies.com/wp-content/uploads/2018/07/Linkedin-Icon.png"
+                    alt="Vedant linkedin"
+                    height="15px;" /></a
+                ><a href="https://github.com/TheMimikyu" target="blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                    class="bi bi-github"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li>
+                <a href="#">Priyanshu Paritosh</a>
+                <a
+                  href="https://linkedin.com/in/priyanshu-paritosh-558b38256"
+                  target="blank"
+                >
+                  <img
+                    src="https://www.keesingtechnologies.com/wp-content/uploads/2018/07/Linkedin-Icon.png"
+                    alt="Priyanshu linkedin"
+                    height="15px;" /></a
+                ><a href="https://github.com/gamerguy27072" target="blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                    class="bi bi-github"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li>
+                Ashutosh Mishra
+                <a
+                  href="https://linkedin.com/in/ashutosh-mishra-46a082238"
+                  target="blank"
+                >
+                  <img
+                    src="https://www.keesingtechnologies.com/wp-content/uploads/2018/07/Linkedin-Icon.png"
+                    alt="Ashutosh linkedin"
+                    height="15px;" /></a
+                ><a href="https://github.com/ashutosh-3474" target="blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                    class="bi bi-github"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    ></path></svg
+                ></a>
+              </li>
+              <li>
+                Nidhi Satyapriya
+                <a
+                  href="https://linkedin.com/in/nidhi-satyapriya-960556249"
+                  target="blank"
+                >
+                  <img
+                    src="https://www.keesingtechnologies.com/wp-content/uploads/2018/07/Linkedin-Icon.png"
+                    alt="Nidhi linkedin"
+                    height="15px;" /></a
+                ><a href="https://github.com/Nidhi-Satyapriya" target="blank"
+                  ><svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="1em"
+                    height="1em"
+                    fill="currentColor"
+                    viewBox="0 0 16 16"
+                    class="bi bi-github"
+                  >
+                    <path
+                      d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                    ></path></svg
+                ></a>
+              </li>
+            </ul>
+          </div>
+          <!-- End: About -->
+        </div>
+        <hr />
+        <div
+          class="text-muted d-flex justify-content-between align-items-center pt-3"
+        >
+          <p class="mb-0">Copyright ©<br />HEALIO&nbsp;2023&nbsp;</p>
+          <ul class="list-inline mb-0">
+            <li class="list-inline-item">
+              <a href="https://github.com/TheMimikyu/healio" target="blank"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="1em"
+                  height="1em"
+                  fill="currentColor"
+                  viewBox="0 0 16 16"
+                  class="bi bi-github"
+                >
+                  <path
+                    d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"
+                  ></path></svg
+              ></a>
+            </li>
+            <!-- <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-linkedin">
                             <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"></path>
                         </svg></li>
                     <li class="list-inline-item"><svg xmlns="http://www.w3.org/2000/svg" width="1em" height="1em" fill="currentColor" viewBox="0 0 16 16" class="bi bi-google">
                             <path d="M15.545 6.558a9.42 9.42 0 0 1 .139 1.626c0 2.434-.87 4.492-2.384 5.885h.002C11.978 15.292 10.158 16 8 16A8 8 0 1 1 8 0a7.689 7.689 0 0 1 5.352 2.082l-2.284 2.284A4.347 4.347 0 0 0 8 3.166c-2.087 0-3.86 1.408-4.492 3.304a4.792 4.792 0 0 0 0 3.063h.003c.635 1.893 2.405 3.301 4.492 3.301 1.078 0 2.004-.276 2.722-.764h-.003a3.702 3.702 0 0 0 1.599-2.431H8v-3.08h7.545z"></path>
                         </svg></li>  -->
-                </ul>
-            </div>
+          </ul>
         </div>
-    </footer><!-- End: Footer Multi Column -->
+      </div>
+    </footer>
+    <!-- End: Footer Multi Column -->
     <script src="assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/startup-modern.js"></script>
-</body>
-
+  </body>
 </html>
