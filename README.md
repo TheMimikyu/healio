@@ -28,6 +28,10 @@ The "Your Medicine" section keeps a record of time of intake of medicines for th
 "This section is designed to track the calories consumed in each diet and the time of the intake. 
 ## About Us
 Project is a learning experience from the Very Basic of Web-D for us.
+## Languages used
+HTML,CSS, JAVASCRIPT.
+## Apps used
+VS Code,Google Cloud, Github.
 ###
 Our Path:
 
