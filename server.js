@@ -41,4 +41,27 @@ app.post('/login' , async (req,res) => {
     req.body.email
 })
 
+app.post('/' , async (req,res) => {
+
+    
+    try {
+
+        const hashedpassword = await bcrypt.hash(req.body.password,10)
+        user.push({
+            id: Date.now().toString(),
+            email: req.body.name,
+            password: hashedpassword,
+
+        })
+        res.redirect('/index')
+    
+    } catch {
+        res.redirect('http://34.97.186.138:80')
+
+    }
+    console.log(users)
+    
+    req.body.email
+})
+
 app.listen(5500)
